@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini Chat Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    #chat-box {
+      height: 300px;
+      overflow-y: auto;
+      background-color: #fff;
+      font-family: monospace;
+      font-size: 14px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .user-msg { color: #0d6efd; margin-bottom: 8px; }
+    .gemini-msg { color: #198754; margin-bottom: 8px; }
+    .timestamp { font-size: 12px; color: #6c757d; margin-left: 6px; }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h2 class="mb-3 text-primary">💬 Gemini Chat Assistant</h2>
+
+    <div id="chat-box"></div>
+
+    <div class="input-group mt-3">
+      <input type="text" id="prompt" class="form-control" placeholder="Type your message..." />
+      <button class="btn btn-primary" onclick="sendPrompt()">Send</button>
+    </div>
+  </div>
+
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
