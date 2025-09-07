@@ -12,4 +12,4 @@ A modular Flask app powered by Google's Gemini API. Built for learning, experime
 ## Setup
 
 1. Clone the repo
-2. Create a `.env` file with your Gemini API key:AIzaSyDc1tclfBOrZ-oMlsgn53e4BdjkgcaRToQ
+2. Create a `.env` file with your Gemini API key.
