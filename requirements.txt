@@ -1,3 +1,6 @@
 flask
 google-generativeai
 python-dotenv
+flask
+google-generativeai
+python-dotenv
